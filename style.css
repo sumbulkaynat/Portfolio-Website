@@ -1,0 +1,518 @@
+body{
+    margin: 0px;
+}
+ul {
+        padding-inline-start: 0px;
+    }
+
+/*---HEADER-----*/
+
+#body-header{
+    height: 70vh;
+    background-image: linear-gradient(
+      rgba(128, 128, 219, 0.58), 
+      rgba(245, 83, 83, 0.48)
+    ), url(images/Mac-and-coffee-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/*----NAVIGATION----*/
+.nav-list{
+    margin-top: 0px;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.nav-list li{
+    display: inline-block;
+    margin: 1% 2%;
+}
+
+
+.nav-list li a{
+    text-decoration: none;
+    color:rgba(255, 249, 249, 0.98);
+    font-family:cursive;
+    font-size: 2em;
+}
+.nav-list li a:hover{
+    color:rgba white;
+    font-family:cursive;
+   
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.84);
+     transition: text-shadow 0.5s;
+}
+.nav-hover li a:hover{
+   
+}
+
+.text-centre{
+    text-align: center;
+}
+
+/*-----NAME-----*/
+#name p{
+    color:rgba(253, 253, 253, 0.93);
+    font-weight:500;
+    letter-spacing:0.25rem;
+    word-spacing:1rem;
+    
+    font-size: 5rem;
+    margin-bottom: 0;
+    margin-top: 8%;
+    z-index=1;
+    font-family: sans-serif;
+     text-shadow: 2px 3px 15px rgba(35, 28, 52, 0.95);
+}
+
+/*----SOCIAL ICONS-----*/
+
+.social-icon li a:hover{
+    color:white);
+    border-bottom: 0px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 8px rgba(239, 227, 244, 0.83);
+    
+    
+}
+.social-icon li a i{
+    border-radius: 50%;
+    padding:10px;
+    font-size: 1.6rem;
+      
+}
+
+
+
+.social-icon li{
+    margin: 10px;
+}
+
+/*-----ABOUT-----*/
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image{
+    height:12rem;
+    width: 12rem;
+    margin:auto;
+}
+#my-image img{
+    height:100%;
+    width:100%;
+    border-radius: 50%;
+    margin-top: -15vh;
+    border: 2px solid white;
+    box-shadow: 0px 0px 6px 8px #e4e4ef;
+}
+
+
+#about p{
+    width: 70%;
+    margin: auto;
+    font-family: sans-serif;
+    line-height: 1.5;
+    word-spacing: 3px;
+    letter-spacing: 0.7px;
+    font-size: 1.1rem;
+    margin top:-12rem;
+}
+
+#about-text{
+    margin-top: -10vh;
+    padding:1%;
+    margin-bottom: 10vh;
+}
+
+
+
+
+
+/*----SKILLS-----*/
+
+#skills{
+    height:auto;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+.section-heading{
+    font-size: 3rem;
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+    font-family: sans-serif;
+    
+    margin-top: unset;
+}
+
+.skill-icon i{
+    font-size:3.2rem;
+    color: black;
+    
+}
+
+.skill-icon span{
+    font-size:2rem;
+    margin-left: 5px; 
+    
+}
+
+.skill-container{
+    width: 170px;
+    background-color: white;
+    border-radius: 2rem 2rem 2rem 2rem;
+    margin:2rem;
+}
+
+.skill-progress{
+    
+    background-image: linear-gradient(
+         rgba(133, 47, 186, 0.67),
+        rgba(56, 22, 70, 0.89)
+     
+    );
+    border-radius: 2rem 0 0 2rem;
+}
+
+.skill-container span{
+    margin: 8px;
+    color: #e0d0d0;
+    font-size: 1.4rem;
+    font-family: monospace;
+    
+    
+}
+
+.skill-1 .progress-percent{
+    width:80%;
+}
+
+.skill-2 .progress-percent{
+    width:90%;
+}
+
+.skill-3 .progress-percent{
+    width:70%;
+}
+
+.skill-4 .progress-percent{
+    width:60%;
+}
+
+.skill-5 .progress-percent{
+    width:40%;
+}
+
+.skill-6 .progress-percent{
+    width:29%;
+}
+
+.skill-7 .progress-percent{
+    width:50%;
+}
+
+.skill-8 .progress-percent{
+    width:46%;
+}
+
+.flex-container{
+    padding-bottom:2rem; 
+    display: flex;
+    flex-wrap: wrap;
+   
+    margin:auto;
+    justify-content: center;
+}
+
+#skills .flex-container{
+     width:70%;
+}
+
+
+
+/*--- Altrenate Child Section----*/
+
+
+section:nth-child(2n){
+    background-color: rgba(216, 216, 216, 0.84);
+}
+
+section:nth-child(2n+1){
+    background-color:white;
+}
+
+
+/*-------WORK EXPERIENCE-----*/
+
+.black-border{
+    border: 2px solid black;
+}
+
+#work{
+    padding:2%;
+}
+
+.work-icon span{
+    font-size:2rem;
+    color: black;
+    
+}
+
+.box-container{
+    height:auto;
+    width:70%;
+    position:relative;
+    margin:auto;
+}
+
+.box-child{
+    min-height:200px;
+    
+    width:40%;
+    position: relative;
+    
+}
+
+.vertical-divider{
+    height:75%;
+    position: absolute;
+    width:0;
+    margin: auto;
+    left:50%;
+    top:10%;
+    border: 2px dashed #60a3c7;
+}
+
+.box-child:nth-child(2n+1){
+    left:60%;
+}
+
+.time-traveller{
+    position: sticky;
+    top:30%;
+    
+    z-index: 2;
+}
+
+#work .time-traveller{
+    transform: rotate(90deg);
+}
+
+.time-traveller i{
+    font-size: 2rem;
+}
+
+.box-child:nth-child(2n)::after{
+    content:' ';
+    border-radius: 50%;
+    width:0.5rem;
+    height:0.5rem;
+    background-color: red;
+    position: absolute;
+    top:40%;
+    right:-26.2%;
+}
+
+.box-child:nth-child(2n+1)::after{
+    content:' ';
+    border-radius: 50%;
+    width:0.5rem;
+    height:0.5rem;
+    background-color: red;
+    position: absolute;
+    top:40%;
+    left:-26%;
+}
+
+/*------EDUCATION------*/
+#education{
+    padding:2%;
+}
+
+#education .time-traveller{
+    transform: rotate(270deg);
+    left:0%;
+}
+
+/*-------CONTACT-----*/
+
+#contact{
+    background: linear-gradient(to top right,blue 0%,purple 75%);
+    color:white;
+}
+
+.contact-icon span{
+    font-size:2rem;
+    color: white;
+    
+}
+
+.contact-flex-child{
+    width: 30%;
+    min-width: 300px;
+    flex-grow: 1;
+}
+#contact .flex-container{
+    width:80%;
+    justify-content: space-between;
+}
+
+#contact input,textarea{
+    
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: #d9dcdd;
+    background: transparent;
+    width:90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.contact-send-button button{
+    background: transparent;
+    border:2px solid white;
+    padding:7px;
+    font-size: 1rem;
+    color: white;
+    margin: 3% 28% 3%;
+    
+    
+}
+
+.address-info{
+    line-height: 1.9;
+    font-family: sans-serif;
+    letter-spacing: 0.07rem;
+    padding-left:4%;
+}
+#touch-info{
+    line-height: 1.3;
+    margin-top: -2%;
+    
+}
+.contact-heading p{
+    font-size: 1.3rem;
+    margin:0%;
+    font-weight: bold;
+}
+
+.address-item i{
+    margin-right: 0.7%;
+}
+
+@media screen and (max-width:990px){
+    .nav-list li a {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .vertical-divider{
+        left:5%;
+    }
+    .box-container{
+        width:90%;
+    }
+    .box-child{
+        width:85%;
+        left:14%  !important;
+    }
+    .box-child::after{
+        left: -11.5% !important;
+    }
+    html{
+        font-size:20px;
+    }
+    .skill-container {
+        width: 35%;
+        margin: 1rem 0.5rem;
+    }
+    #skills .flex-container {
+        width: 100%;
+    }
+    #my-image {
+        height: 8rem;
+        width: 8rem;
+    }
+    #my-image img {
+        margin-top: -12vh;
+    }
+    #about-text{
+        margin-top: 0;
+    }
+    #about p {
+        font-size: 0.8rem; 
+    }
+    .nav-list li a {
+        font-size: 0.8rem;
+    }
+    #name p {
+        font-size: 4rem;
+    }
+
+}
+
+@media screen and (max-width:572px){
+    .vertical-divider{
+        left:5%;
+    }
+    .box-container{
+        width:90%;
+    }
+    .box-child{
+        width:85%;
+        left:14%  !important;
+    }
+    .box-child::after{
+        left: -12% !important;
+    }
+    html{
+        font-size:15px;
+    }
+    .skill-container {
+        width: 50%;
+        margin: 1.5rem 0.5rem;
+    }
+    #skills .flex-container {
+        width: 100%;
+    }
+    #my-image {
+        height: 8rem;
+        width: 8rem;
+    }
+    #my-image img {
+        margin-top: -8vh;
+    }
+    #about-text{
+        margin-top: 0;
+    }
+    #about p {
+        font-size: 1.1rem; 
+    }
+    .social-icon li {
+        margin: 0;
+    }
+    .social-icon li a i {
+        font-size: 1.4rem;
+    }
+    #social .nav-list {
+        margin-top: 8%;
+        margin-bottom: 0px;
+    }
+    #name p {
+        font-size: 4.5rem;
+    }
+    
+}
