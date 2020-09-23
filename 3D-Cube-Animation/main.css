@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+
+.cube{
+    display: inline-block;
+    height:200px;
+    width:200px;
+    position: relative;
+    margin: 100px;
+    transform-style: preserve-3d;
+    perspective: 10000px;
+    transform: rotateX(25deg) rotateY(-25deg);
+    
+}
+
+.face{
+    height:100%;
+    width: 100%;
+    position: absolute;
+    top:20%;
+    left: 20%;
+/*    transition: all 1s;*/
+   
+    border: 2px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    
+}
+
+.one{
+    background-color: skyblue;
+    background-image: url(2.jpg);
+    
+   
+}
+
+.two{
+    background-color: orange;
+    transform: rotateY(90deg) translateZ(-100px) translateX(-100px);
+    background-image: url(3.jpg);
+   
+}
+
+.three{
+    background-color: red;
+
+    transform: rotateY(90deg) translateX(-100px) translateZ(100px);
+    
+     background-image: url(4.jpg);
+}
+.four{
+    background-color: chartreuse;
+    transform: translateZ(200px);
+    
+    background-image: url(1.jpg);
+    
+}
+
+.five{
+    background-color: darkviolet;
+    transform: rotateX(90deg) translateZ(100px) translateY(100px);
+   
+    background-image: url(5.jpg);
+}
+
+.six{
+    background-color: blue;
+    transform: rotateX(90deg) translateZ(-100px) translateY(100px);
+    
+    background-image: url(6.jpg);
+    
+}
+
+.cube:hover{
+    transform: rotateX(1120deg) rotateY(1120deg) rotateZ(360deg);
+    transition: all 25s;
+}
+
+
