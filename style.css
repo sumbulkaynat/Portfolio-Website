@@ -523,10 +523,12 @@ section:nth-child(2n+1){
 .pa{
     flex-grow: 1;
     flex-shrink: 1;
-    
+    padding: 10px;
 }
 
 #popular-artist{
+    display: flex;
+    justify-content: center;
     color:black;
     width:100%;
     font-family: sans-serif;
